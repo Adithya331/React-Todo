@@ -1,11 +1,8 @@
 import React from 'react'
 
 export default function ItemContainer(props) {
-
-    const items = ['C','Python','Java','React']
   return (
     <div style={{
-      backgroundColor: '#fafafa',
       padding: '1rem',
     }}>
       <ul style={{
