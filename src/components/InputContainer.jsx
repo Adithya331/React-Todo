@@ -30,12 +30,12 @@ export default function InputContainer(props) {
         style={{
           width: '5rem',
           fontSize: '1rem',
-          backgroundColor: '#007bff', // Blue background
-          color: '#fff', // White text
+          backgroundColor: '#007bff', 
+          color: '#fff', 
           border: 'none',
-          borderRadius: '5px', // Matching button corner radius
+          borderRadius: '5px', 
           cursor: 'pointer',
-          transition: 'background-color 0.3s ease', // Smooth hover effect
+          transition: 'background-color 0.3s ease', 
         }}
         onClick={() => {
           console.log(InputVal);
